@@ -147,7 +147,7 @@ namespace PdfSharp.Pdf.IO
                         if (Char.IsDigit(major) && Char.IsDigit(minor))
                         {
                             var version = (major - '0') * 10 + (minor - '0');
-                            if (version is >= 10 and <= 20)
+                            if (version is >= 10 and <= 40)
                                 return version;
                         }
                     }
